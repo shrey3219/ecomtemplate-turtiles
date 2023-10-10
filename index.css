@@ -1,0 +1,886 @@
+ 
+ /*HEADER------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{ 
+    font-size: 60px;
+    line-height: 74px;
+}
+h2{
+    font-size: 56px;
+    line-height: 60px;
+}
+h4{
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.sec-1{
+    padding: 40px 80px;
+}
+.sec-2{
+    padding: 40px 0px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2px 80px;
+    background: white;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 23px;
+
+
+}
+#navbar li a:hover{
+    color: rgb(24, 138, 183);
+    text-shadow:0 0 3px #0ef ;
+}
+
+#navbar li a:hover,
+#navbar li a.response{
+    color: rgb(24, 138, 183);
+    text-shadow:0 0 3px #0ef ;
+}
+
+#navbar li a.response::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgb(31, 160, 211);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* MAIN------*/
+
+#main {
+    background-image:url("imgg/brooke-cagle-Ss3wTFJPAVY-unsplash.jpg");
+    width: 100%;
+    height: 91vh;
+    background-position: top 50% right 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+#main h4{
+    margin-left: 105px;
+    margin-top: 10px;
+
+}
+
+#main h2{
+      margin-left: 105px;
+      
+}
+
+#main h1{
+    margin-left: 105px;
+    color:rgb(31, 160, 211);
+    text-shadow: 0 0 20px #0ef;
+    margin-top: 6px;
+}
+#main p{
+    margin-left: 110px;
+    color: lightgray;
+   line-height: 35px;
+  
+}
+#main button{
+    margin-left: 105px;
+    margin-top: 15px;
+}
+
+#main button {
+    background-image: url("imgg/butto1.png");
+    background-color: transparent;
+    color: black;
+    border: 0; 
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+ #main button a{
+    text-decoration: none;
+    color: black;
+ }
+
+ #main button a:hover{
+    color: rgb(34, 12, 12);
+ }
+
+ /* FEATURES(same money happy selling etc)------ */
+ #features{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+   /*1*/
+ #features .febox1{
+    width: 150px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0px;
+ }
+
+ #features .febox1:hover{
+    box-shadow: 10px 10px 54px rgba(60,54,200,0.1);
+ }
+  
+ #features .febox1 img{
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ #features .febox1 h6{
+    font-size: 14px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: aqua;
+    background-color:black;
+
+ }
+   /*2*/
+ #features .febox2{
+    width: 150px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0px;
+ }
+  
+ #features .febox2:hover{
+    box-shadow: 10px 10px 54px rgba(60,54,200,0.1);
+ }
+
+ #features .febox2 img{
+    margin-bottom: 10px;
+   width: 100%;
+    
+ }
+ #features .febox2 h6{
+    font-size: 14px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(255, 148, 164);
+    background-color:black;
+
+ }
+   /*3*/
+ #features .febox3{
+    width: 150px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0px;
+ }
+
+ #features .febox3:hover{
+    box-shadow: 10px 10px 54px rgba(60,54,200,0.1);
+ }
+
+ #features .febox3 img{
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ #features .febox3 h6{
+    font-size: 14px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: lightgreen;
+    background-color:black;
+ }
+   /*4*/
+ #features .febox4{
+    width: 150px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0px;
+ }
+
+ #features .febox4:hover{
+    box-shadow: 10px 10px 54px rgba(60,54,200,0.1);
+ }
+
+ #features .febox4 img{
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ #features .febox4 h6{
+    font-size: 14px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: lightblue;
+    background-color:black;
+
+ }
+   /*5*/
+ #features .febox5{
+    width: 150px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0px;
+ }
+
+ #features .febox5:hover{
+    box-shadow: 10px 10px 54px rgba(60,54,200,0.1);
+ }
+
+ #features .febox5 img{
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ #features .febox5 h6{
+    font-size: 14px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(161, 79, 161);
+    background-color:black;
+
+ }
+  /*6*/
+ #features .febox6{
+    width: 150px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0px;
+ }
+
+ #features .febox6:hover{
+    box-shadow: 10px 10px 54px rgba(60,54,200,0.1);
+ }
+
+ #features .febox6 img{
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ #features .febox6 h6{
+    font-size: 14px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(210, 136, 40);
+    background-color: black;
+    
+    
+ }
+
+/* FEATURED HEADLINE WRAP ------ */
+ #featured .wrapper{
+    justify-content: center;
+ }
+
+ .wrapper {
+    display: flex;
+}
+ 
+.wrapper .first-text {
+    font-size: 60px;
+    color: black;
+    margin-top: 11px;
+}
+ 
+.wrapper .sec-texts {
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+ 
+.sec-texts li {
+    position: relative;
+    top: 0;
+    font-size: 60px;
+    color: #0ef;
+    list-style: none;
+    padding: 0 20px;
+    text-shadow: 0 0 10px #0ef;
+    animation: slide 12s steps(4) infinite, colorful 6s infinite;
+}
+ 
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+ 
+@keyframes colorful {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+ 
+.sec-texts li span {
+    position: relative;
+}
+ 
+.sec-texts li span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 90px;
+    background: white;
+    border-left: 2px solid #0ef;
+    animation: typing 1.5s steps(10) infinite alternate;
+}
+ 
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+/* FEATPRODUCTs------- */
+#featproduct p{
+    text-align: center;
+    margin-top: -25px;
+    font-size: 27px;
+    color: rgb(33, 31, 31);
+}
+
+#featproduct .procontainer{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+#featproduct .pro{
+    width: 40px;
+    min-width: 300px;
+    padding: 10px 20px;
+    border: 1px solid rgb(198, 193, 193);
+    border-radius:10px ;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+#featproduct .pro:hover{
+    box-shadow: none;
+    cursor:pointer;
+}
+
+#featproduct .pro img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#featproduct .do img{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: -3px;
+}
+#featproduct .do h4{
+    font-size: 20px;
+}
+#featproduct .do h3{
+    font-size: 23px;
+    
+}
+
+
+/* banner------*/
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url("imgg/choi.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+#banner h4{
+   text-shadow:  0 0 10px #0ef;
+}
+#banner h2{
+    text-shadow:  0 0 10px #0ef;
+}
+#banner span{
+    color: rgb(198, 86, 221);
+}
+
+button.norm{
+    background: white;
+    padding: 9px 13px;
+    background-color: white;
+    color: #0ef;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    margin-top: 9px;
+    text-shadow: 0 0 15px #0ef;
+}
+button.norm:hover{
+    background-color:rgb(36, 33, 33);
+    color: white;
+    text-shadow: 0 0 10px white; 
+}
+
+
+/*NEW TOP DEALS-------*/ 
+
+#newdeals p{
+    text-align: center;
+    margin-top: -25px;
+    font-size: 27px;
+    color: rgb(33, 31, 31);
+}
+
+#newdeals .ndcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    flex-wrap: wrap;
+}
+
+#newdeals .nd{
+    width:23%;
+    min-width:250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(238, 232, 232);
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 15px 0;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.2);
+    transition: 0.23s ease;
+    position: relative;
+}
+
+#newdeals .nd:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.6);
+}
+
+#newdeals .nd img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#newdeals .nd .nds{
+    text-align: start;
+    padding: 10px 0;
+}
+#newdeals .nd .nds span{
+    color:rgb(139, 139, 139);
+    font-size: 20px;
+}
+#newdeals .nd .nds h5{
+    padding-top: 6px;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    padding-bottom: 6px;
+}
+#newdeals .nd .nds .star{
+    color: #facb11;
+    font-size: 12px;
+    text-shadow: 0 0 4px #ffdf0f;
+    margin-bottom: 1.5px;
+    
+}
+
+#newdeals .nd .cart{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    color:black;
+    position:absolute;
+    bottom:20px;
+    right:10px;
+    font-size: 20px; 
+}
+ 
+ /*NEW ARRIVALS-----*/
+#newarrival{
+    text-align:center;
+    margin-top: -25px;
+}
+#newarrival h2{
+    margin-top: -46px;
+}
+#newarrival .nacontainer{
+    display:flex;
+    justify-content:space-between;
+    padding-top:20px;
+    flex-wrap:wrap;
+}
+#newarrival .na{
+    width:23%;
+    min-width:250px;
+    padding:10px 12px;
+    border:1px solid #d3ebd7;
+    border-radius:25px;
+    cursor:pointer;
+    box-shadow: 20px 20px 30px rgba(184, 157, 157, 0.06);
+    margin: 15px 0px;
+    transition:0.2s ease;
+    position:relative;
+}
+#newarrival .na:hover{
+    box-shadow:20px 20px 30px rgba(0,0, 0, 0.06);
+}
+#newarrival .na img{
+    width:100%;
+    border-radius:20px;
+}
+ 
+#newarrival .na .nas{
+    text-align:start;
+    padding:10px 0;
+}
+
+#newarrival .na .nas span{
+    color:rgb(139, 139, 139);
+}
+
+#newarrival .na .nas h5{
+    padding-top: 7px;
+    color:black;
+    font-size :18px;
+}
+#newarrival .na .nas .star{
+    font-size:12px;
+    color: #facb11;
+    text-shadow: 0 0 4px #ffdf0f;
+    margin-top: 4px;
+}
+#newarrival .na .nas h4{
+    padding-top:7px;
+    margin-top: -6px;
+    font-size:16px;
+    font-weight:700;
+    color:black;
+}
+#newarrival .na .cart{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    position:absolute;
+    color: black;
+    bottom:20px;
+    right:10px;
+    font-size: 20px;
+}
+
+/* SM 1-2 BANNER----*/
+.sec-3{
+    padding: 40px 80px;
+}
+#sm-banner{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-top: -20px;
+}
+#sm-banner .banner-box{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    border-radius: 20px;
+    border: 2.5px solid lightgrey;
+    background-image: url("imgg/bnnn23.jpg");
+    min-width: 600px;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+    padding:30px;
+}
+#sm-banner .banner-box2{
+    background-image: url("imgg/bnn2.webp");
+}
+#sm-banner .banner-box h4{
+    color:#fff;
+    font-size:25px;
+    font-weight:400;
+}
+#sm-banner .banner-box h2{
+    color:#fff;
+    font-size:50px;
+    font-weight:800;
+}
+#sm-banner span{
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    padding-bottom:15px;
+}
+button.smjy{
+    padding: 9px 13px;
+    background-color:transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.3s;
+    text-shadow: 0 0 15px #0ef;  
+}
+button.smjy:hover{
+    background-color:rgb(36, 33, 33);
+    color: white;
+    text-shadow: 0 0 10px white; 
+}
+
+/* 345 BANNER-----*/
+#banner3{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding:0 80px;
+}
+#banner3 .banner-box{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    background-image: url("imgg/wp4244900.jpg");
+    min-width: 28%;
+    height:27vh;
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+    margin-bottom:20px;
+}
+#banner3 .banner-box2{
+    background-image: url("imgg/gf.png");
+}
+#banner3 .banner-box3{
+    background-image: url("imgg/lane2.avif");
+    background-position: top 50%;
+}
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+#banner3 h3{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/* UPCOMING NEWS----*/
+#upcoming{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    background-image: url("imgg/HD-wallpaper-black-drop-tear-water-window.jpg");
+    background-repeat: no-repeat;
+    background-position:20% 30%;
+    background-size: cover;;
+    background-color: black;
+    padding: 50px 100px;
+    margin-top: 30px;
+}
+#upcoming h4{
+    font-size:30px;
+    font-weight:800;
+    color:#ffffff;
+    text-shadow: 0 0 10px white;
+}
+#upcoming p{
+    margin-top:8px ;
+    font-size:17px;
+    font-weight:600;
+    color:#ffffff;
+    text-shadow: 0 0 5px white;
+}
+#upcoming p span{
+    text-shadow: 0 0 5px #ffdf0f;
+    color:#ffbb00;
+ 
+}
+#upcoming .form{
+    display:flex;
+    width: 30%;
+    height: 5vh;
+}
+#upcoming .form input[type="text"]{
+   width: 250px;
+   padding: 15px;
+  color: black;
+  border-radius: 6px;
+}
+#upcoming button {
+    width: 60px;
+    background-color:#ffbb00 ;
+    color: white;
+    border-radius: 5px;
+}
+
+/* FOOTER-------*/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+
+}
+footer h4{
+    font-size: 18px;
+    padding-bottom: 8px;
+    font-weight: 800;
+    color: rgb(76, 75, 75);
+}
+footer p{
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    color: grey;
+}
+footer strong{
+    color: rgb(84, 82, 82);
+}
+footer a{
+    font-size: 16.5px;
+    text-decoration: none;
+    color: grey;
+    margin-bottom: 9px;
+}
+footer .follow{
+    margin-top: 7px ;
+}
+footer .follow i{
+    color: gray;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 2px solid black;
+    border-radius: 6px;
+}
+footer .install img{
+    margin: 6px 0 10px 0;
+    width: 200px;
+}
+footer .icon .c:hover{
+    color:rgb(48, 48, 152);
+}
+footer .icon .d:hover{
+    color:#0ef;
+}
+footer .icon .e:hover{
+    color:rgb(221, 30, 116); 
+}
+footer .icon .f:hover{
+    color: rgb(255, 0, 0);
+}
+footer a:hover{
+    color: rgb(91, 91, 91);
+}
+
+.copyright{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
+    color: grey;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------ SHOP.HTML-------------------------------------------------------------------------------------------------*/
+.section-p1{
+    padding: 40px 80px; 
+}
+.section-m1{
+    padding: 40px 0px;
+}
+
+#paging-head{
+   background-image: url("imgg/coolfunky.jpg");
+   height: 50vh;
+   width: 100%;
+   background-size: cover;
+   text-align: center;
+   margin: auto;
+}
+
+
+
